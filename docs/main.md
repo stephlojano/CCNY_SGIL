@@ -15,7 +15,7 @@ In order to use the `SGIL` module, you must first install:
 ## Page Navigation
 - #### [folium_map.py](./pages/folium_map_page.md)
     - used to create quick maps with `folium` - a Python wrapper for `leaflet` 
-- #### geoutil.py 
+- #### [geoutil.py](./pages/geoutil_page.md) 
     - utility functions for geographical calculations
 - #### gowanus_map.py 
     - a Python `dict` of points in the Gowanus, Brooklyn area 
