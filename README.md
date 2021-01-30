@@ -1,1 +1,1 @@
-# CCNY_SGIL
+# SmartGrid Interdepdency Lab (SGIL) at The City College of New York 
