@@ -2,7 +2,8 @@
 `folium_map.py` is used for quick visualization of data using `folium`. `folium` is a Python wrapper for `leaflet.js` - an interactive maps module. Folium can render different style map types and can be saved as an HTML file for interaction. For the full documentation on the `folium` module, [visit their official documetation](https://python-visualization.github.io/folium/).
 
 ## Contents
-- `class folium_map`
+- **Requirements**
+- **`class folium_map`**
     - [Attributes](###Attributes)
         - `self.center_loc`
     - Methods 
@@ -13,7 +14,17 @@
         - `self.add_polylines`
         - `self.save_map`
         - `self.display_map`
-        
+## Requirements 
+You must have `Python 3.6` or above, and `folium` installed in order to use `folium_map.py`. You can install the latest version of `folium` with: 
+```bash
+pip install folium
+```
+If you on OSX or Linux without `pyenv`: 
+```bash
+pip3 install folium 
+```
+
+
 ## `class folium_map`
 ### Attributes 
 #### `folium_map.center_loc` : `Union[Tuple, List, Set, NumPy Array]`
